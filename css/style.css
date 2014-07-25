@@ -1,0 +1,58 @@
+html {
+color: white;
+font-family: Verdana;
+font-size: 20px;
+}
+body {
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+background: #595959;
+}
+#infobox {
+background: #292f33;
+-webkit-border-radius: 50px;
+-moz-border-radius: 50px;
+border-radius: 50px;
+position:fixed;
+margin-left: -325px;
+height: 150px;
+width:650px;
+top: 60%;
+left: 50%;
+text-align: center;
+}
+#infobox p {
+color: #f5f8fa;
+margin-top: 60px;
+}
+#somelinks {
+position: fixed;
+margin-top: -190px;
+margin-left: -338px; /* It's in middle now. I think. */
+top: 50%;
+left: 50%;
+min-width: 1000px;
+}
+.somebutton{
+background: #292f33;
+-webkit-border-radius: 50px;
+-moz-border-radius: 50px;
+border-radius: 50px;
+cursor: pointer;
+margin-top: 10px;
+margin-left: 10px;
+margin-right: 10px; 
+display: inline;
+padding-top: 190px;
+text-align: center;
+}
+.somebutton img{
+position: center;
+
+}
+
+.somebutton:hover {
+background: #f5f8fa;
+}
